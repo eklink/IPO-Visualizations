@@ -2,7 +2,7 @@
 
 Project Proposal
 
-Team: Olga Tarannukha, James Lang, John Rafferty, Joel Timulak, Elizabeth Klink
+Team: Olga Tarannukha, James Jang, John Rafferty, Joel Timulak, Elizabeth Klink
 
 Objective: Researching IPOs trends over the last 3 years and create an interactive dashboard. Who has filed for an IPO over the last 3 years? Are there correlations between IPO industry and business location? And how has it changed over the last 3 years?   
   
