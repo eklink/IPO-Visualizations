@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>D3 IPO</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style_D3.css">
+  <link rel="stylesheet" href="css/d3Style.css">
+  
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script> -->
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1>D3 IPO Visualization</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-12">
+        <div class="article">
+          <p>We examined the results of IPO for last year for state-level data of estimated volume of companies, shrares and median shares, median price on factors, poverty level (percentage below poverty line), median age, and median household income based per one hundred thousand people.
+          </p>
+
+          <p>We found that only 20 of states were represented in the IPO and more than a half of them (12) were represented no more than 3 companies with estimated volume under 525 (mil $). The leader of our list is California that was represented by 41 companies with estimated volume about 9500 (mil $). Pennsylvania located on the second place with 3 companies and 3300 (mil $). And  Massachusetts and New York shares the fourth place with 10 and 12 companies, and 2000 and 2600 (mil $) accordingly. Almost the same picture with volume of shares.As expected the median of shares is more in the states represented with less quantity of companies, such Pennsylvania, Delaware and Tennessee was ahead, and California showed only 12.15 (mil $) of median shares. Interesting to note that NY is not on the first place.
+          </p>
+
+          <p>We found a positive correlation between poverty level and volume of shares. So that, the states with the lowest level of poverty share minimum of mil $, and contradictarory the most of shares were made in the states with high enouph level of poverty. Only exeption is Louisiana, that is can be explaned by the fact that LA was represented by only one company. We see no visible correlation between median price and quantity of companies, household incomes or poverty level.
+          </p>
+
+          <p>It is interesting to note a few other facts.  The highest median price was in the Louisiana, which is the state with the most level of poverty.The median age of states that were represented is between 30 and 43, so we can suppose that this is the states where the most of population is in the working age. Interesting to note that median shares were higher in the states whis median age about 40.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <div id="footer">
+    <p>The Coding Boot Camp &copy;2019 </p>
+  </div>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script> -->
+  <script type="text/javascript" src="js/app_D3.js"></script>
+
+</body>
+
+</html>
